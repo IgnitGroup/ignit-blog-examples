@@ -15,7 +15,7 @@ still need their own routed network path to the database endpoints.
 
 ## Prerequisites
 
-- Terraform 1.6 or newer; repository CI uses Terraform 1.15.3.
+- Terraform 1.6 or newer; local validation used Terraform 1.15.3.
 - AWS credentials for a sandbox account with permissions to create VPC, KMS and RDS resources in both Regions. Select the intended account through your local AWS credential configuration.
 - Engine version and instance/capacity availability in both selected Regions, sufficient quotas, and a review of the billable resources.
 

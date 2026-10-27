@@ -17,7 +17,7 @@ Runnable code, infrastructure examples, and demos accompanying Ignit engineering
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and the [article template](templates/article/README.md). Add or update examples through a pull request.
+Found a problem with an example or have a suggestion? [Create an issue](https://github.com/IgnitGroup/ignit-blog-examples/issues/new). See [CONTRIBUTING.md](CONTRIBUTING.md) for reporting guidance. Code changes are maintained by the Ignit team.
 
 ## License
 
