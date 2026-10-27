@@ -31,7 +31,7 @@ Static validation does not confirm current engine/class availability, account qu
 
 On October 27, 2026, both examples passed `terraform fmt -check -recursive`, backend-free initialization with the unchanged provider lock files, and `terraform validate`, using Terraform 1.15.3 and AWS provider 6.63.0. Initialization reused the already downloaded provider through a local plugin directory.
 
-Repository YAML parsing, local Markdown link checks and Terraform ignore-rule checks also passed. No AWS plan, deployment, SQL replication or recovery test was run for this import. Terraform validation is performed locally. GitHub Actions only checks that every article directory has a record in the root README Articles table.
+Repository YAML parsing, local Markdown link checks and Terraform ignore-rule checks also passed. No AWS plan, deployment, SQL replication or recovery test was run for this import. Terraform validation is performed locally. GitHub Actions checks the root README Articles table on pull requests and synchronizes it after pushes to main. Terraform validation remains local.
 
 ## Costs and cleanup
 
