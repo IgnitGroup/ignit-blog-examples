@@ -1,0 +1,14 @@
+name_prefix = "rds-cross-region-demo"
+
+primary_region   = "eu-west-1"
+secondary_region = "eu-central-1"
+
+# Keep empty unless a trusted network can route to these private VPC subnets.
+primary_ingress_cidrs   = []
+secondary_ingress_cidrs = []
+
+tags = {
+  ManagedBy   = "Terraform"
+  Repository  = "ignit-blog-examples"
+  Environment = "demo"
+}

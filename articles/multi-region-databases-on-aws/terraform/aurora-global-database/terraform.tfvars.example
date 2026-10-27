@@ -1,0 +1,18 @@
+name_prefix = "aurora-global-demo"
+
+primary_region   = "eu-west-1"
+secondary_region = "eu-central-1"
+
+# Keep empty unless a trusted network can route to these private VPC subnets.
+primary_ingress_cidrs   = []
+secondary_ingress_cidrs = []
+
+# Keep true for a ready-to-read DR cluster. Set false for a lower-cost headless
+# secondary and create an instance before a planned switchover or DR promotion.
+create_secondary_instance = true
+
+tags = {
+  ManagedBy   = "Terraform"
+  Repository  = "ignit-blog-examples"
+  Environment = "demo"
+}

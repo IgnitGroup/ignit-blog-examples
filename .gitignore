@@ -1,0 +1,36 @@
+# Terraform working data and state
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+**/.terraform.lock.hcl
+*.tfplan
+*.plan
+crash.log
+crash.*.log
+
+# Local inputs; publish only explicitly sanitized examples
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+!*.tfvars.json.example
+
+# Local Terraform overrides and CLI configuration
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: terraform
+    directory: /articles/multi-region-databases-on-aws/terraform/aurora-global-database
+    schedule:
+      interval: weekly
+  - package-ecosystem: terraform
+    directory: /articles/multi-region-databases-on-aws/terraform/rds-mysql-cross-region-read-replica
+    schedule:
+      interval: weekly
