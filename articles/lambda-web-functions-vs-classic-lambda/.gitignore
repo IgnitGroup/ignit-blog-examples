@@ -1,0 +1,8 @@
+# Build output
+dist/
+dist.zip
+dist-lambda/
+dist-lambda.zip
+
+# build.sh copies shared/common.ts here
+*/src/common.ts

@@ -6,6 +6,7 @@ Runnable code, infrastructure examples, and demos accompanying Ignit engineering
 
 | Article | Code | Technologies | Verification |
 | --- | --- | --- | --- |
+| [Lambda Web Functions vs classic Lambda: we ran the benchmarks](https://ignit.group/blog/lambda-web-functions-vs-classic-lambda-we-ran-the-benchmarks) | [Code and instructions](articles/lambda-web-functions-vs-classic-lambda/) | TypeScript, Node.js, AWS Lambda, Lambda Web Functions, Hono, Express, Fastify | Local smoke test (`smoke.sh`) passed; deployment to AWS not re-tested in this repo. |
 | [Multi-region databases on AWS](https://ignit.group/blog/multi-region-databases-on-aws) | [Code and instructions](articles/multi-region-databases-on-aws/) | Terraform, AWS, Aurora PostgreSQL, RDS MySQL | Local format/validation checks passed; current examples require AWS deployment tests. |
 
 ## Getting started
