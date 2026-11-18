@@ -30,6 +30,12 @@ terraform.rc
 *.pem
 *.key
 
+# Node.js dependencies
+node_modules/
+
+# Local tooling state (memsearch session memory)
+.memsearch/
+
 # OS/editor files
 .DS_Store
 .idea/
